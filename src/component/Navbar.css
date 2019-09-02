@@ -1,0 +1,44 @@
+ul.header li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+h6.judul {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+h6.judul a {
+    text-decoration: none;
+    color: darkorange;
+    background: white;
+    padding: 23px;
+    display: inline-block;
+}
+ul.header {
+    background-color: darkorange;
+    padding: 0;
+    border-radius: 5px;
+}
+ul.header li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+}
+ul.header li a:hover{
+    color: darkorange;
+    background: white;
+    transition: 0.5s;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+}
